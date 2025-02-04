@@ -24,6 +24,6 @@ let isLoggedIn = false
 
 console.log(typeof "hitesh");
 console.log(typeof null); // object
-console.log(typeof undefined;) // undefined
+console.log(typeof undefined) // undefined
 console.log("asddfgg")
 console.log("asddfgg")
