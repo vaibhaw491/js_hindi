@@ -1,0 +1,61 @@
+// var c = 300
+let a = 300
+
+if (true) {
+
+    let a = 10
+    const b = 20
+    // console.log("INNER:", a)
+
+}
+
+// console.log(a);
+// console.log(b);
+
+function one() {
+    const username = "vaibhaw"
+
+    function two() {
+        const website = "youtube"
+        console.log(username);
+    }
+    // console.log(website);
+
+
+    two()
+}
+
+// one()
+if (true) {
+
+    const username = "gopi"
+    if (username === "gopi") {
+
+        const website = "microsoft"
+        // console.log(username + " " + website);
+    }
+    // console.log(website);  // gives error
+}
+// console.log(username); // gives error
+
+
+
+
+//+++++++++++++++++ interesting +++++++++++++++
+
+
+console.log(addone(5));
+function addone(num) {
+
+    return num + 1
+
+}
+
+
+// function hoisting(we can't call function before declaration)
+
+const addTwo = function (num) {
+
+    return num + 2
+}
+console.log(addTwo(5));
