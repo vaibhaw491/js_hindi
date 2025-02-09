@@ -67,6 +67,22 @@ const user = {
 
 // if we want to return object
 
-const addTwo = (num1, num2) => ({ username: "vaibhaw" })
+// const addTwo = (num1, num2) => ({ username: "vaibhaw" })
 
-console.log(addTwo(3, 4));
+// console.log(addTwo(3, 4));
+
+
+
+// immediately invoked function expression (IIFE)
+
+"use strict";
+(function chai() {  // named IIFE
+
+    console.log(`DB CONNECTED`);
+})();  // for end of first code use ;
+
+((name) => {  // unnamed IIFE
+
+    console.log(`DB CONNECTED TWO  ${name}`);
+})("vaibhaw")
+
